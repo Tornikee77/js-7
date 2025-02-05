@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../font/Raleway-VariableFont_wght.ttf");
+}
+body {
+  font-family: "Raleway";
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f8ff;
+}
+.header-mainCont {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-mainCont .right-container .signinBtn {
+  background-color: transparent;
+  border: none;
+  color: #8987a180;
+}
+.header-mainCont .right-container .signuptBtn {
+  width: 132px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4e47ff;
+  color: #ffffff;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 764px;
+  margin: 0 auto;
+}
+.main-container #hello-goodbye {
+  width: 700px;
+  font-size: 74px;
+  font-weight: 700;
+  text-align: center;
+  color: #252432;
+}
+.main-container .btnContainer {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+
+.btnContainer #helloBtn {
+  width: 211px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: #252432;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+#helloBtn:hover {
+  background-color: dimgrey;
+  width: 225px;
+  height: 80px;
+}
+.btnContainer #goodbyeBtn {
+  width: 211px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: #252432;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+#goodbyeBtn:hover {
+  background-color: dimgrey;
+  width: 225px;
+  height: 80px;
+}
